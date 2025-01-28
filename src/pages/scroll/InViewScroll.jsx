@@ -1,8 +1,8 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import {
   motion,
   useInView,
-  useMotionValueEvent,
+ 
   useScroll,
   useTransform,
 } from "framer-motion";

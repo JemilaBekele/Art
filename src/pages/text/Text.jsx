@@ -4,7 +4,7 @@ import FlipText from "./FlipText";
 import Reveal2Text from "./Reveal2Text";
 import Reveal3Text from "./Reveal3Text";
 import FlipTextDiv from "./FlipTextDiv";
-import AnimatedCounter from "./AnimatedCounter";
+
 
 const Text = () => {
   return (
@@ -15,7 +15,7 @@ const Text = () => {
       <Reveal2Text />
       <Reveal3Text />
       <FlipTextDiv />
-      <AnimatedCounter from={0} to={10000} />
+
     </div>
   );
 };

@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import selectorPatterns from 'tailwindcss-selector-patterns'; // Import the plugin
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -55,5 +57,5 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-selector-patterns")],
+  plugins: [selectorPatterns], // Use the imported plugin
 };
